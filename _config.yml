@@ -65,7 +65,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
     - layout: left
-        title: Department of Helath and Human Services (HHS)
+        title: Department of Health and Human Services
         link: hhs.gov
         sub_title: Modern Workplace Architect
         caption: September 2025 - Present
