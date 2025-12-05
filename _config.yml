@@ -46,22 +46,6 @@ about_content: | # this will include new lines to allow paragraphs
   I build complex technology as simple products for the users.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: NIH STRIDES Initiative
-        link: https://cloud.nih.gov
-        # link_text: Project Website
-        additional_links:
-          - title:  github.com/NIHGOV/cloud.nih.gov
-            icon: fab fa-github
-            url: github.com/NIHGOV/cloud.nih.gov
-        quote: >
-          This was one of the most challenging and rewarding thing I've ever done.
-        description: | # this will include new lines to allow paragraphs
-          My team and I built the enterprise environments for National Institutes of Health's cloud-based research. It was a lot of work in all top three cloud providers as well as a dozen SaaS providers.
-
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
