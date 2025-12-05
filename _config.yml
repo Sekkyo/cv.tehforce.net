@@ -61,6 +61,7 @@ content:
 #          This was one of the most challenging and rewarding thing I've ever done.
 #        description: | # this will include new lines to allow paragraphs
 #          My team and I built the enterprise environments for National Institutes of Health's cloud-based research. It was a lot of work in all top three cloud providers as well as a dozen SaaS providers.
+  
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
