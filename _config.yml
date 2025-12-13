@@ -140,6 +140,11 @@ content:
         description: | # this will include new lines to allow paragraphs
            Developed demo environments of the Remedy system, services, applications, and client programs for employees worldwide to use in product presentations to customers. Administered build environments over a multitude of platforms for the sales department. Designed and maintained pre-sales intranet and knowledge base. Acquired knowledge of creating and customizing the Remedy Action Request System, services, and applications.
 
+  - title: Cybersecurity Research
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Apple: [FileVault issue in macOS 26](https://support.apple.com/en-us/125886)
+  
   - title: Education
     layout: text
     content: | # this will include new lines to allow paragraphs
