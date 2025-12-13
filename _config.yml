@@ -177,12 +177,12 @@ content:
   - title: Cloud Provider Architecture & Administration Proficiency
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Adobe Creative Cloud; Amazon Web Services (AWS): Amplify, CloudFront, CloudWatch, Cost Management, EC2, GuardDuty, IAM, Lightsail, RDS, Route 53, S3/Glacier, SSO, VPC, and... hopefully you get the idea there; Azure: App Service, Azure Active Directory, Azure Advanced Threat Protection, Azure Database for MySQL, Azure Data Lake, Azure DNS, Azure Firewall, Azure Insiders, Azure SQL Database, Azure Storage, Azure Virtual Desktop, Content Delivery Network, Cost Analysis, Data Box, Security Center, Virtual Machines, Virtual Network, Virtual WAN, VPN Gateway; Cylance; Google Apps; Google Cloud Platform.
+      Adobe Creative Cloud; Amazon Web Services (AWS): Amplify, CloudFront, CloudWatch, Control Tower, Cost Management, EC2, GuardDuty, IAM, Lightsail, Organizations, RDS, Route 53, S3/Glacier, SSO, VPC, etc.; Azure: App Gateway, App Service, Azure Virtual Desktop, Cost Analysis, Cost Management, DNS, Firewall, Front Door, Landing Zone, SQL Database, Storage, Virtual Machines, Virtual Network, Virtual WAN, VPN Gateway; Google Admin, Google Cloud Platform, Google Workspace.
 
   - title: Framework & Language Proficiency
     layout: text
     content: | # this will include new lines to allow paragraphs
-      ASP.NET; C#; C, C++; CSS, HTML; JavaScript, jQuery; Jekyll; Objective-C; Perl; PHP; Shell, PowerShell; SQL; Swift; USWDS; WiX; XAML; XML, XSL; YAML.
+      ASP.NET; C#; C, C++; CSS, HTML; JavaScript, jQuery; Jekyll; JSON; Objective-C; Perl; PHP; Python; Shell, PowerShell; SQL; Swift; USWDS; WiX; XAML; XML, XSL; YAML.
 
   - title: Operating System Proficiency
     layout: text
@@ -192,7 +192,7 @@ content:
   - title: Development Environment & Tool Proficiency
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Confluence; Eclipse; Git; GitHub; InstallShield; Jira; Perforce; Purify; Subversion; TestComplete; Trac; Azure DevOps, Visual Studio, MSBuild; WinDbg; Xcode.
+      Confluence; Eclipse; Git; GitHub, GitHub Codespaces, GitHub Copilot, GitHub Enterprise Cloud; InstallShield; Jira; Perforce; Purify; Subversion; TestComplete; Azure DevOps, Visual Studio, MSBuild; WinDbg; Xcode.
 
   - title: About Me
     layout: text
