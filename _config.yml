@@ -11,6 +11,11 @@ title: Architect Engineer
 email: joel@tehforce.net
 website: cv.tehforce.net
 
+# Social media preview
+description: "I'm Joel, and I've really enjoyed being an architect/engineer over the last twenty-six years. I build complex technology as simple products for the users."
+social_image: images/me.png
+url: https://cv.tehforce.net
+
 # Dark Mode (true/false/never)
 darkmode: false
 
