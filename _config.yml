@@ -13,8 +13,21 @@ website: cv.tehforce.net
 
 # Social media preview
 description: "I'm Joel, and I've really enjoyed being an architect/engineer over the last twenty-six years. I build complex technology as simple products for the users."
-social_image: images/me.png
 url: https://cv.tehforce.net
+
+# Jekyll SEO tag settings
+logo: /images/me.png
+social:
+  name: Joel Peterson
+  links:
+    - https://twitter.com/sekkyo
+    - https://www.linkedin.com/in/joeldpeterson
+    - https://github.com/sekkyo
+
+# Twitter card settings
+twitter:
+  username: sekkyo
+  card: summary_large_image
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -216,6 +229,13 @@ references_title: References on request
 
 # Build settings
 remote_theme: sproogen/resume-theme
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /images/me.png
 
 sass:
   sass_dir: _sass
