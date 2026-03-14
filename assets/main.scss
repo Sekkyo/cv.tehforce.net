@@ -4,62 +4,41 @@
 
 @import 'modern-resume-theme';
 
-// Chalk dark theme
-// bg #212121 · fg #d2d2d2 · lavender #e1a3ee · blue #6fc2ef
-// teal #12cfc0 · gold #ddb26f · muted #808080 · card #2a2a2a
-
-@mixin chalk-dark {
+@mixin dark-mode {
   body {
     background-color: #212121;
     color: #d2d2d2;
   }
 
-  h3 {
-    color: #e1a3ee;
-  }
-
-  h4 {
-    color: #6fc2ef;
-  }
-
   a {
-    color: #6fc2ef;
-    &:hover { color: #12cfc0; }
+    color: #d2d2d2;
   }
 
   mark {
-    background-color: #ddb26f;
-    color: #212121;
-  }
-
-  .quote {
-    color: #808080;
-  }
-
-  .details {
-    background-color: #2a2a2a;
+    background-color: #555;
+    color: #d2d2d2;
   }
 }
 
 // System dark mode (suppressed when user forces light)
 @media (prefers-color-scheme: dark) {
   html:not([data-theme="light"]) {
-    @include chalk-dark;
+    @include dark-mode;
   }
 }
 
 // User-forced dark mode
 html[data-theme="dark"] {
-  @include chalk-dark;
+  @include dark-mode;
 }
 
-// Dark mode toggle button — match the existing icon button style
+// Dark mode toggle button — match the .icons a style (color: #aaa)
 #dark-mode-toggle {
   background: none;
   border: none;
   padding: 0;
   cursor: pointer;
-  color: inherit;
+  color: #aaa;
   font-size: inherit;
   line-height: 1;
 }
