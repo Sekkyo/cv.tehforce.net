@@ -78,7 +78,7 @@ content:
             icon: fab fa-github
             url: https://github.com/NIHGOV/github-portal
         quote: >
-          One of the largest federal GitHub consolidations ever.
+          One of the largest federal code platform consolidation and modernization.
         description: | # this will include new lines to allow paragraphs
           Built out the [NIH GitHub Resource Center](https://github.nih.gov) and developed the open-source [NIH GitHub Management Portal](https://portal.github.nih.gov) — a self-service application for organization and repository management across NIH. Led the consolidation of nearly all NIH GitHub organizations and repositories into a single <mark>GitHub Enterprise</mark>, dramatically simplifying governance, access management, and security oversight across the institute.
 
