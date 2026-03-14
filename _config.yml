@@ -64,13 +64,20 @@ content:
           Led a macOS modernization initiative across HHS, establishing cloud-native standards for macOS device management, zero-touch deployment, cloud identity, and automated security compliance. Defined architecture patterns and operational frameworks anchored in <mark>NIST 800-53</mark>. Set a goal of delivering the best macOS user experience in the federal government while keeping platforms secure, current, and fully self-service capable.
 
       - layout: right
+        title: ARPA-H Microsoft 365 Tenant Migration
+        quote: >
+          Carving out a brand-new GCC tenant from scratch for a new federal agency.
+        description: | # this will include new lines to allow paragraphs
+          Architected and led the migration of ARPA-H's <mark>Microsoft 365 GCC</mark> environment from NIH's shared tenant into a standalone, agency-owned tenant. Designed the full identity architecture using <mark>Okta</mark> as the authoritative identity provider with <mark>SCIM</mark> provisioning to <mark>Entra ID</mark>, establishing joiner/mover/leaver lifecycle automation from day one. Coordinated cross-tenant mailbox migrations via <mark>Exchange Online</mark>, SharePoint content migrations, and <mark>Microsoft Teams</mark> data transitions with minimal user disruption. Managed DNS cutovers — including MX, autodiscover, and domain verification records — and reconfigured <mark>Conditional Access</mark> policies, application registrations, and dynamic group logic in the new tenant. Ensured continuous <mark>NIST 800-53</mark> compliance and <mark>GCC</mark> data boundary requirements throughout.
+
+      - layout: left
         title: ARPA-H macOS
         quote: >
           Best macOS in the federal government, built from scratch.
         description: | # this will include new lines to allow paragraphs
           Architected and implemented a cloud-only macOS environment for ARPA-H from the ground up using <mark>Jamf Premium Cloud Plus</mark>, <mark>Apple Business Manager</mark>, and <mark>Okta</mark> for IdP-based local accounts, password sync, and <mark>Touch ID</mark>. Delivered zero-touch, device-as-a-service deployments via Jamf Setup Manager with nationwide overnight and 3-day international fulfillment. Achieved <mark>CISA CDM</mark> compliance and enforced a 72-hour patch deferral limit, committing to macOS upgrades within 90 days of each release. The platform became the gold standard adopted by new and existing HHS operating divisions.
 
-      - layout: left
+      - layout: right
         title: NIH GitHub
         link: https://github.com/enterprises/nih
         additional_links:
@@ -85,7 +92,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           Built out the [NIH GitHub Resource Center](https://github.nih.gov) and developed the open-source [NIH GitHub Management Portal](https://portal.github.nih.gov) — a self-service application for organization and repository management across NIH. Led the consolidation of nearly all NIH GitHub organizations and repositories into a single GitHub enterprise, dramatically simplifying governance, access management, and security oversight across the institute.
 
-      - layout: right
+      - layout: left
         title: ARPA-H Website
         link: https://arpa-h.gov
         quote: >
@@ -93,7 +100,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           Architected and led development of the ARPA-H public website from scratch during agency formation using <mark>Jekyll</mark>, <mark>U.S. Web Design System</mark>, <mark>GitHub Pages</mark>, <mark>Azure Logic Apps</mark>, <mark>Azure Static Web Apps</mark>, and <mark>Google Analytics & Search</mark>. Built and shipped rapidly to establish the agency's public presence in support of its launch and ongoing mission.
 
-      - layout: left
+      - layout: right
         title: STRIDES Initiative Website
         link: https://cloud.nih.gov
         additional_links:
