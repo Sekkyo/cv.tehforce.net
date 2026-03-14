@@ -10,9 +10,7 @@ name: Joel Peterson
 title: Architect Engineer
 email: joel@tehforce.net
 website: cv.tehforce.net
-
-# Social media preview
-description: "I'm Joel, and I've really enjoyed being an architect/engineer over the last twenty-eight years. I build complex technology as enjoyable products for the users."
+description: I've really enjoyed being an architect/engineer over the last twenty-eight years. I build complex technology as enjoyable products for the users.
 url: https://cv.tehforce.net
 
 # Jekyll SEO tag settings
@@ -20,20 +18,13 @@ logo: /images/me.png
 social:
   name: Joel Peterson
   links:
-    - https://twitter.com/sekkyo
     - https://www.linkedin.com/in/joeldpeterson
     - https://github.com/sekkyo
 
-# Twitter card settings
-twitter:
-  username: sekkyo
-  card: summary_large_image
-
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: never
 
 # Social links
-twitter_username: sekkyo
 github_username: sekkyo
 # facebook_username: joeldpeterson
 # instagram_username: sekkyo
@@ -45,9 +36,6 @@ additional_links:
  - title: petersonjdNIH
    icon: fab fa-github
    url: https://github.com/petersonjdNIH
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -64,6 +52,41 @@ about_content: | # this will include new lines to allow paragraphs
   I build complex technology as enjoyable products for the users.
 
 content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: STRIDES Initiative Website
+        link: https://cloud.nih.gov
+        additional_links:
+          - title: github.com/NIHGOV/cloud.nih.gov
+            icon: fab fa-github
+            url: https://github.com/NIHGOV/cloud.nih.gov
+        quote: >
+          A high-visibility federal website built and shipped fast.
+        description: | # this will include new lines to allow paragraphs
+          Architected and led development of the STRIDES Initiative public website using <mark>Jekyll</mark>, <mark>U.S. Web Design System</mark>, <mark>GitHub Pages</mark>, <mark>AWS Amplify</mark>, and <mark>Azure Static Web Apps</mark>. The site serves as the primary public face of NIH's cloud research program, reaching researchers and stakeholders across the federal government.
+
+      - layout: right
+        title: ARPA-H Website
+        link: https://arpa-h.gov
+        quote: >
+          First public face of a brand-new federal agency.
+        description: | # this will include new lines to allow paragraphs
+          Architected and led development of the ARPA-H public website from scratch during agency formation using <mark>Jekyll</mark>, <mark>U.S. Web Design System</mark>, <mark>GitHub Pages</mark>, <mark>Azure Logic Apps</mark>, <mark>Azure Static Web Apps</mark>, and <mark>Google Analytics & Search</mark>. Built and shipped rapidly to establish the agency's public presence in support of its launch and ongoing mission.
+
+      - layout: left
+        title: NIH GitHub Enterprise
+        link: https://github.com/enterprises/nih
+        additional_links:
+          - title: github.com/NIHGOV/github-portal
+            icon: fab fa-github
+            url: https://github.com/NIHGOV/github-portal
+        quote: >
+          One of the largest federal GitHub consolidations ever.
+        description: | # this will include new lines to allow paragraphs
+          Built out <mark>github.nih.gov</mark> and developed the open-source NIH GitHub Management Portal — a self-service application for organization and repository management across NIH. Led the consolidation of nearly all NIH GitHub organizations and repositories into a single <mark>GitHub Enterprise</mark>, dramatically simplifying governance, access management, and security oversight across the institute.
+
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -75,7 +98,7 @@ content:
         quote: >
            Modernizing an entire department.
         description: | # this will include new lines to allow paragraphs
-           Led modernization efforts of HHS' use of <mark>Entra ID</mark>, <mark>GitHub</mark>, <mark>Google Admin</mark>, <mark>Google Cloud</mark>, <mark>Google Gemini</mark>, <mark>Google Identity</mark>, <mark>Google Workspace</mark>, <mark>macOS</mark>, <mark>Microsoft 365</mark>, and <mark>Slack</mark>. Provided institutional knowledge and technical expertise to peers seeking consultation on most effective approaches to everyday and complex challenges.
+           Led modernization efforts of HHS' use of <mark>Atlassian Cloud</mark>, <mark>Entra ID</mark>, <mark>GitHub</mark>, <mark>Google Admin</mark>, <mark>Google Cloud</mark>, <mark>Google Gemini</mark>, <mark>Google Identity</mark>, <mark>Google Workspace</mark>, <mark>Intune</mark>, <mark>macOS</mark>, <mark>Microsoft 365</mark>, <mark>Slack</mark>, and <mark>Windows</mark>. Provided institutional knowledge and technical expertise to peers seeking consultation on most effective approaches to everyday and complex challenges.
       - layout: right
         title: Advanced Research Projects Agency for Health (ARPA-H)
         link: arpa-h.gov
@@ -84,7 +107,7 @@ content:
         quote: >
            Launching a new federal agency.
         description: | # this will include new lines to allow paragraphs
-           Built and led the new agency's enterprise architecture from the ground up. Initiated, planned, and implemented new projects and enterprise offerings: <mark>Acquia Cloud</mark>, <mark>Adobe Creative Cloud</mark>, <mark>Akamai Edge DNS</mark>, <mark>Atlassian Cloud</mark>, <mark>Aware</mark>, <mark>BeyondTrust</mark>, <mark>CrowdStrike</mark>, <mark>DocuSign</mark>, <mark>Figma</mark>, <mark>GitHub</mark>, <mark>Google Admin</mark>, <mark>Google Cloud</mark>, <mark>Google Gemini</mark>, <mark>Google Workspace</mark>, <mark>HubSpot</mark>, <mark>IdeaScale</mark>, <mark>Jamf</mark>, <mark>macOS</mark>, <mark>Microsoft Azure</mark>, <mark>Microsoft 365</mark>, <mark>Okta</mark>, <mark>Slack</mark>, <mark>WebEx</mark>, <mark>Zendesk</mark>, <mark>Zoom</mark>. Built everything to intermediate-to-optimal maturity according to [Zero Trust](https://www.cisa.gov/sites/default/files/2023-04/zero_trust_maturity_model_v2_508.pdf) standards using the [Microsoft Cybersecurity Reference Architecture (MCRA)](https://aka.ms/mcra. Managed enterprise infrastructure, migrations, identity, and integrations. Integrated ARPA-H's enterprise sytems with cross-disciplinary teams to build agency-tailored <mark>NIST 800-53</mark>-based [ATOs](https://docs.cloud.gov/platform/compliance/ato-process/). Architected and led technical development of the [ARPA-H website](https://arpa-h.gov) using <mark>Jekyll</mark>, <mark>U.S. Web Design System</mark>, <mark>GitHub Pages</mark>, <mark>Azure Logic Apps</mark>, <mark>Azure Static Web Apps</mark>, and <mark>Google Analytics & Search</mark> to support the agency formation and ongoing mission. Re-architected same site to <mark>Acquia Cloud</mark>, <mark>Azure Front Door</mark>, <mark>Azure Logic Apps</mark>, and <mark>Drupal</mark>. Architected and led technical development of an internal business applications on the <mark>Power Platform</mark>. Provided institutional knowledge and technical expertise to programs and services seeking consultation on most effective approaches to everyday and complex challenges.
+           Built and led the new agency's enterprise architecture from the ground up. Initiated, planned, and implemented new projects and enterprise offerings: <mark>Acquia Cloud</mark>, <mark>Adobe Creative Cloud</mark>, <mark>Akamai Edge DNS</mark>, <mark>Atlassian Cloud</mark>, <mark>Aware</mark>, <mark>BeyondTrust</mark>, <mark>CrowdStrike</mark>, <mark>DocuSign</mark>, <mark>Figma</mark>, <mark>GitHub</mark>, <mark>Google Admin</mark>, <mark>Google Cloud</mark>, <mark>Google Gemini</mark>, <mark>Google Workspace</mark>, <mark>HubSpot</mark>, <mark>IdeaScale</mark>, <mark>Jamf</mark>, <mark>macOS</mark>, <mark>Microsoft Azure</mark>, <mark>Microsoft 365</mark>, <mark>Okta</mark>, <mark>Slack</mark>, <mark>WebEx</mark>, <mark>Zendesk</mark>, <mark>Zoom</mark>. Built everything to intermediate-to-optimal maturity according to [Zero Trust](https://www.cisa.gov/sites/default/files/2023-04/zero_trust_maturity_model_v2_508.pdf) standards using the [Microsoft Cybersecurity Reference Architecture (MCRA)](https://aka.ms/mcra). Managed enterprise infrastructure, migrations, identity, and integrations. Integrated ARPA-H's enterprise systems with cross-disciplinary teams to build agency-tailored <mark>NIST 800-53</mark>-based [ATOs](https://docs.cloud.gov/platform/compliance/ato-process/). Architected and led technical development of the [ARPA-H website](https://arpa-h.gov) using <mark>Jekyll</mark>, <mark>U.S. Web Design System</mark>, <mark>GitHub Pages</mark>, <mark>Azure Logic Apps</mark>, <mark>Azure Static Web Apps</mark>, and <mark>Google Analytics & Search</mark> to support the agency formation and ongoing mission. Re-architected same site to <mark>Acquia Cloud</mark>, <mark>Azure Front Door</mark>, <mark>Azure Logic Apps</mark>, and <mark>Drupal</mark>. Architected and led technical development of an internal business applications on the <mark>Power Platform</mark>. Provided institutional knowledge and technical expertise to programs and services seeking consultation on most effective approaches to everyday and complex challenges.
       - layout: left
         title: National Institutes of Health, Center for Information Technology, Cloud Services
         link: cloud.nih.gov
@@ -93,7 +116,7 @@ content:
         quote: >
            Rapidly prototype to production.
         description: | # this will include new lines to allow paragraphs
-           Third federal hire for the STRIDES Initiative. Built and led technology team from the ground up. Initiated, planned, and implemented new initiatives and enterprise offerings: <mark>Amazon Web Services</mark>, <mark>Atlassian Cloud</mark>, <mark>Azure</mark>, <mark>Kion</mark>, <mark>GitHub Enterprise Cloud</mark>, <mark>Google Cloud Platform</mark>, <mark>Microsoft Defender for Cloud Apps</mark>, <mark>Slack</mark>. Architected enterprise infrastructure, migrations, identity, integrations, interconnections, cost management and budgets in Amazon Web Services, Azure, Google Cloud Platform. Integrated NIH's enterprise sytems with cross-disciplinary Identity/Access Management, Networking, and Cybersecurity teams to build agency-tailored <mark>NIST 800-53</mark>-based [ATOs](https://cloud.gov/docs/compliance/ato-process/). Architected and led technical development of the [STRIDES website](https://cloud.nih.gov) using <mark>Jekyll</mark>, <mark>U.S. Web Design System</mark>, <mark>GitHub Pages</mark>, <mark>AWS Amplify</mark>, <mark>Azure Static Web Apps</mark>, <mark>Google Analytics & Search</mark>, and <mark>Microsoft Clarity</mark> to support the STRIDES Initiative. Architected and led technical development of an internal business application on the <mark>Power Platform</mark> and <mark>Dynamics 365</mark>. Mentored four cohorts of Civic Digital Fellows from the [Coding It Forward](https://codingitforward.com) program in the fields of data science, design, program management, and software engineering. Provided institutional knowledge and technical expertise to programs and services seeking consultation on most effective approaches to everyday and complex challenges, including the <mark>COVID-19</mark> shift of the entire workforce to remote work. Continued co-leading NIH-wide Cloud Services group to disseminate best practices and increase Cloud adoption. Consulted on the early days of the formation of a new agency, the [Advanced Research Projects Agency for Health (ARPA-H)](https://arpa-h.gov). 
+           Third federal hire for the STRIDES Initiative. Built and led technology team from the ground up. Initiated, planned, and implemented new initiatives and enterprise offerings: <mark>Amazon Web Services</mark>, <mark>Atlassian Cloud</mark>, <mark>Azure</mark>, <mark>Kion</mark>, <mark>GitHub Enterprise Cloud</mark>, <mark>Google Cloud Platform</mark>, <mark>Microsoft Defender for Cloud Apps</mark>, <mark>Slack</mark>. Architected enterprise infrastructure, migrations, identity, integrations, interconnections, cost management and budgets in Amazon Web Services, Azure, Google Cloud Platform. Integrated NIH's enterprise systems with cross-disciplinary Identity/Access Management, Networking, and Cybersecurity teams to build agency-tailored <mark>NIST 800-53</mark>-based [ATOs](https://cloud.gov/docs/compliance/ato-process/). Architected and led technical development of the [STRIDES website](https://cloud.nih.gov) using <mark>Jekyll</mark>, <mark>U.S. Web Design System</mark>, <mark>GitHub Pages</mark>, <mark>AWS Amplify</mark>, <mark>Azure Static Web Apps</mark>, <mark>Google Analytics & Search</mark>, and <mark>Microsoft Clarity</mark> to support the STRIDES Initiative. Architected and led technical development of an internal business application on the <mark>Power Platform</mark> and <mark>Dynamics 365</mark>. Mentored four cohorts of Civic Digital Fellows from the [Coding It Forward](https://codingitforward.com) program in the fields of data science, design, program management, and software engineering. Provided institutional knowledge and technical expertise to programs and services seeking consultation on most effective approaches to everyday and complex challenges, including the <mark>COVID-19</mark> shift of the entire workforce to remote work. Continued co-leading NIH-wide Cloud Services group to disseminate best practices and increase Cloud adoption. Consulted on the early days of the formation of a new agency, the [Advanced Research Projects Agency for Health (ARPA-H)](https://arpa-h.gov).
       - layout: right
         title: National Institutes of Health, National Eye Institute, Information Technology Management Branch
         link: nei.nih.gov
@@ -162,45 +185,64 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       Apple: [FileVault issue in macOS 26](https://support.apple.com/en-us/125886)
-  
-  - title: Education
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      San Jose State University
 
-      San Jose, California
-      
-      Computer Science with most coursework completed
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: San Jose State University
+        sub_title: Computer Science
+        caption: San Jose, California
+        description: Most coursework completed.
 
   - title: Training
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Microsoft Certification ID: 3613323
-
-      Microsoft Certified: Azure Administrator Associate
-      
-      Microsoft Certified: Azure Fundamentals
-      
-      Microsoft Certified: Technology Specialist SQL Server 2005
-      
-      ITIL® Foundation Certification
+    layout: list
+    content:
+      - layout: left
+        title: Microsoft
+        sub_title: Certification ID 3613323
+        description: |
+          - Azure Administrator Associate
+          - Azure Fundamentals
+          - Technology Specialist SQL Server 2005
+      - layout: left
+        title: AXELOS
+        description: ITIL® Foundation Certification
 
   - title: Languages
     layout: text
     content: | # this will include new lines to allow paragraphs
       Expert English, intermediate French, and novice Japanese.
-      
+
       I'm probably too proud that I can order what I want to eat in Spanish and Vietnamese.
 
   - title: Cloud Provider Architecture & Administration Proficiency
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Adobe Creative Cloud; Amazon Web Services (AWS): Amplify, CloudFront, CloudWatch, Control Tower, Cost Management, EC2, GuardDuty, IAM, Lightsail, Organizations, RDS, Route 53, S3/Glacier, SSO, VPC, etc.; Azure: App Gateway, App Service, Azure Virtual Desktop, Cost Analysis, Cost Management, DNS, Firewall, Front Door, Landing Zone, SQL Database, Storage, Virtual Machines, Virtual Network, Virtual WAN, VPN Gateway; Google Admin, Google Cloud Platform, Google Workspace.
+    layout: list
+    content:
+      - layout: left
+        title: Amazon Web Services
+        description: |
+          Amplify, CloudFront, CloudWatch, Control Tower, Cost Management, EC2, GuardDuty, IAM, Lightsail, Organizations, RDS, Route 53, S3/Glacier, SSO, VPC, and more.
+      - layout: left
+        title: Microsoft Azure
+        description: |
+          App Gateway, App Service, Azure Virtual Desktop, Cost Analysis, Cost Management, DNS, Firewall, Front Door, Landing Zone, SQL Database, Storage, Virtual Machines, Virtual Network, Virtual WAN, VPN Gateway.
+      - layout: left
+        title: Google
+        description: Google Admin, Google Cloud Platform, Google Workspace.
+      - layout: left
+        title: Other
+        description: Adobe Creative Cloud.
 
   - title: Framework & Language Proficiency
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      ASP.NET; C#; C, C++; CSS, HTML; JavaScript, jQuery; Jekyll; JSON; Objective-C; Perl; PHP; Python; Shell, PowerShell; SQL; Swift; USWDS; WiX; XAML; XML, XSL; YAML.
+    layout: list
+    content:
+      - layout: left
+        title: Languages
+        description: C, C++, C#, Objective-C, Swift, JavaScript, jQuery, JSON, Perl, PHP, Python, SQL, Shell, PowerShell, XAML, XML, XSL, YAML.
+      - layout: left
+        title: Frameworks & Standards
+        description: ASP.NET, CSS, HTML, Jekyll, USWDS, WiX.
 
   - title: Operating System Proficiency
     layout: text
@@ -208,9 +250,20 @@ content:
       I've picked up a considerable amount of knowledge of most operating systems internals: from the kernel architecture and debugging to security subsystems and the user frontend. I'm highly proficient in most distributions of Linux, use macOS as my daily driver, and still enjoy Windows often.
 
   - title: Development Environment & Tool Proficiency
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Confluence; Eclipse; Git; GitHub, GitHub Codespaces, GitHub Copilot, GitHub Enterprise Cloud; InstallShield; Jira; Perforce; Purify; Subversion; TestComplete; Azure DevOps, Visual Studio, MSBuild; WinDbg; Xcode.
+    layout: list
+    content:
+      - layout: left
+        title: IDEs & Build
+        description: Eclipse, Visual Studio, MSBuild, Xcode, Azure DevOps.
+      - layout: left
+        title: Source Control & Project Management
+        description: Git, GitHub, GitHub Codespaces, GitHub Copilot, GitHub Enterprise Cloud, Perforce, Subversion, Jira, Confluence.
+      - layout: left
+        title: Testing & Debugging
+        description: TestComplete, Purify, WinDbg.
+      - layout: left
+        title: Packaging
+        description: InstallShield.
 
   - title: About Me
     layout: text
