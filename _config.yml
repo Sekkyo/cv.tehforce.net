@@ -59,7 +59,7 @@ content:
       - layout: left
         title: HHS macOS Modernization
         quote: >
-          Cloud-only macOS across the federal government.
+          Bringing better, more secure macOS experiences to the rest of the department.
         description: | # this will include new lines to allow paragraphs
           Led a macOS modernization initiative across HHS, establishing cloud-native standards for device management, zero-touch deployment, cloud identity, and automated security compliance. Defined architecture patterns and operational frameworks anchored in <mark>NIST 800-53</mark>. Set a goal of delivering the best macOS user experience in the federal government while keeping platforms secure, current, and fully self-service capable.
 
