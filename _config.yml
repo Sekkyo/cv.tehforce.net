@@ -83,6 +83,14 @@ content:
           Built out the [NIH GitHub Resource Center](https://github.nih.gov) and developed the open-source [NIH GitHub Management Portal](https://portal.github.nih.gov) — a self-service application for organization and repository management across NIH. Led the consolidation of nearly all NIH GitHub organizations and repositories into a single GitHub enterprise, dramatically simplifying governance, access management, and security oversight across the institute.
 
       - layout: right
+        title: ARPA-H Website
+        link: https://arpa-h.gov
+        quote: >
+          First public face of a brand-new federal agency.
+        description: | # this will include new lines to allow paragraphs
+          Architected and led development of the ARPA-H public website from scratch during agency formation using <mark>Jekyll</mark>, <mark>U.S. Web Design System</mark>, <mark>GitHub Pages</mark>, <mark>Azure Logic Apps</mark>, <mark>Azure Static Web Apps</mark>, and <mark>Google Analytics & Search</mark>. Built and shipped rapidly to establish the agency's public presence in support of its launch and ongoing mission.
+
+      - layout: left
         title: STRIDES Initiative Website
         link: https://cloud.nih.gov
         additional_links:
@@ -93,14 +101,6 @@ content:
           A high-visibility federal website built and shipped fast.
         description: | # this will include new lines to allow paragraphs
           Architected and led development of the STRIDES Initiative public website using <mark>Jekyll</mark>, <mark>U.S. Web Design System</mark>, <mark>GitHub Pages</mark>, <mark>AWS Amplify</mark>, and <mark>Azure Static Web Apps</mark>. The site serves as the primary public face of NIH's cloud research program, reaching researchers and stakeholders across the federal government.
-
-      - layout: left
-        title: ARPA-H Website
-        link: https://arpa-h.gov
-        quote: >
-          First public face of a brand-new federal agency.
-        description: | # this will include new lines to allow paragraphs
-          Architected and led development of the ARPA-H public website from scratch during agency formation using <mark>Jekyll</mark>, <mark>U.S. Web Design System</mark>, <mark>GitHub Pages</mark>, <mark>Azure Logic Apps</mark>, <mark>Azure Static Web Apps</mark>, and <mark>Google Analytics & Search</mark>. Built and shipped rapidly to establish the agency's public presence in support of its launch and ongoing mission.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
