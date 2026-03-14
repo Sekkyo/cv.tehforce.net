@@ -77,6 +77,9 @@ content:
           - title: github.com/NIHGOV/github-portal
             icon: fab fa-github
             url: https://github.com/NIHGOV/github-portal
+          - title: github.com/nihgov/github.nih.gov
+            icon: fab fa-github
+            url: https://github.com/nihgov/github.nih.gov
         quote: >
           One of the largest federal code platform consolidation and modernization.
         description: | # this will include new lines to allow paragraphs
