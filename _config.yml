@@ -68,7 +68,7 @@ content:
         quote: >
           Best macOS in the federal government, built from scratch.
         description: | # this will include new lines to allow paragraphs
-          Architected and implemented a cloud-only macOS environment for ARPA-H from the ground up using <mark>Jamf Premium Cloud Plus</mark>, <mark>Apple Business Manager</mark>, and <mark>Okta</mark> for IdP-based local accounts, password sync, and Touch ID. Delivered zero-touch, device-as-a-service deployments via Jamf Setup Manager with nationwide overnight and 3-day international fulfillment. Achieved <mark>CISA CDM</mark> compliance and enforced a 72-hour patch deferral limit, committing to macOS upgrades within 90 days of each release. The platform became the gold standard adopted by new and existing HHS agencies.
+          Architected and implemented a cloud-only macOS environment for ARPA-H from the ground up using <mark>Jamf Premium Cloud Plus</mark>, <mark>Apple Business Manager</mark>, and <mark>Okta</mark> for IdP-based local accounts, password sync, and <mark>Touch ID</mark>. Delivered zero-touch, device-as-a-service deployments via Jamf Setup Manager with nationwide overnight and 3-day international fulfillment. Achieved <mark>CISA CDM</mark> compliance and enforced a 72-hour patch deferral limit, committing to macOS upgrades within 90 days of each release. The platform became the gold standard adopted by new and existing HHS agencies.
 
       - layout: left
         title: NIH GitHub
