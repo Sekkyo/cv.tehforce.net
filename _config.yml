@@ -61,14 +61,14 @@ content:
         quote: >
           Cloud-only macOS across the federal government.
         description: | # this will include new lines to allow paragraphs
-          Led a macOS modernization initiative across HHS components, establishing cloud-native standards for device management, zero-touch deployment, cloud identity, and automated security compliance. Defined architecture patterns and operational frameworks—anchored in <mark>NIST 800-53</mark> and <mark>CISA CDM</mark> requirements—adopted by new and existing HHS agencies. Set a goal of delivering the best macOS user experience in the federal government while keeping platforms secure, current, and fully self-service capable.
+          Led a macOS modernization initiative across HHS, establishing cloud-native standards for device management, zero-touch deployment, cloud identity, and automated security compliance. Defined architecture patterns and operational frameworks anchored in <mark>NIST 800-53</mark>. Set a goal of delivering the best macOS user experience in the federal government while keeping platforms secure, current, and fully self-service capable.
 
       - layout: right
         title: ARPA-H macOS
         quote: >
           Best macOS in the federal government, built from scratch.
         description: | # this will include new lines to allow paragraphs
-          Architected and implemented a cloud-only macOS environment for ARPA-H from the ground up using <mark>Jamf Premium Cloud Plus</mark>, <mark>Apple Business Manager</mark>, and <mark>Okta</mark> for IdP-based local accounts, password sync, and FileVault encryption. Delivered zero-touch, device-as-a-service deployments via Jamf Setup Manager with nationwide overnight and 3-day international fulfillment. Secured the platform with <mark>mSCP</mark>, <mark>Microsoft Defender</mark>, and <mark>CrowdStrike Falcon</mark>, enforcing a 72-hour patch deferral limit and committing to macOS upgrades within 90 days of each release.
+          Architected and implemented a cloud-only macOS environment for ARPA-H from the ground up using <mark>Jamf Premium Cloud Plus</mark>, <mark>Apple Business Manager</mark>, and <mark>Okta</mark> for IdP-based local accounts, password sync, and FileVault encryption. Delivered zero-touch, device-as-a-service deployments via Jamf Setup Manager with nationwide overnight and 3-day international fulfillment. Achieved <mark>CISA CDM</mark> compliance and enforced a 72-hour patch deferral limit, committing to macOS upgrades within 90 days of each release. The platform became the gold standard adopted by new and existing HHS agencies.
 
       - layout: left
         title: NIH GitHub
