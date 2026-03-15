@@ -275,17 +275,8 @@ content:
     layout: list
     content:
       - layout: left
-        title: IDEs & Build
-        description: Eclipse, Visual Studio, MSBuild, Xcode, Azure DevOps.
-      - layout: left
-        title: Source Control & Project Management
-        description: Git, GitHub, GitHub Codespaces, GitHub Copilot, GitHub Enterprise Cloud, Perforce, Subversion, Jira, Confluence.
-      - layout: left
-        title: Testing & Debugging
-        description: TestComplete, Purify, WinDbg.
-      - layout: left
-        title: Packaging
-        description: InstallShield.
+        title: Tools
+        description: Claude Code, Gemini CLI, Git, GitHub, GitHub Actions, GitHub CLI, GitHub Codespaces, GitHub Copilot, GitHub Enterprise Cloud, Jira, Confluence, Visual Studio, WinDbg, Xcode, Zed.
 
   - title: About Me
     layout: text
