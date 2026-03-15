@@ -256,7 +256,7 @@ content:
         title: Google
         description: Google Admin, Google Cloud Platform, Google Workspace.
 
-  - title: Framework & Language Proficiency
+  - title: Development Proficiency
     layout: list
     content:
       - layout: left
@@ -265,18 +265,14 @@ content:
       - layout: left
         title: Frameworks & Standards
         description: ASP.NET, CSS, HTML, Jekyll, USWDS, WiX.
+      - layout: left
+        title: Tools
+        description: Claude Code, Gemini CLI, Git, GitHub, GitHub Actions, GitHub CLI, GitHub Codespaces, GitHub Copilot, GitHub Enterprise Cloud, Jira, Confluence, Visual Studio, WinDbg, Xcode, Zed.
 
   - title: Operating System Proficiency
     layout: text
     content: | # this will include new lines to allow paragraphs
       I've picked up a considerable amount of knowledge of most operating systems internals: from the kernel architecture and debugging to security subsystems and the user frontend. I'm highly proficient in most distributions of Linux, use macOS as my daily driver, and still enjoy Windows often.
-
-  - title: Development Environment & Tool Proficiency
-    layout: list
-    content:
-      - layout: left
-        title: Tools
-        description: Claude Code, Gemini CLI, Git, GitHub, GitHub Actions, GitHub CLI, GitHub Codespaces, GitHub Copilot, GitHub Enterprise Cloud, Jira, Confluence, Visual Studio, WinDbg, Xcode, Zed.
 
   - title: About Me
     layout: text
