@@ -283,7 +283,7 @@ content:
       - Golf
       - Fishing
       - Tennis
-      - [Eating sushi](https://youtube.com/watch?v=bDL8yu34fz0)
+      - [Eating sushi](https://youtube.com/watch?v=bDL8yu34fz0){:target="_blank"}
 
 # Footer
 footer_show_references: true
