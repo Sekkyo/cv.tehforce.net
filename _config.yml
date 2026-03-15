@@ -64,11 +64,11 @@ content:
           Led a macOS modernization initiative across HHS, establishing cloud-native standards for macOS device management, zero-touch deployment, cloud identity, and automated security compliance. Defined architecture patterns and operational frameworks anchored in <mark>NIST 800-53</mark>. Set a goal of delivering the best macOS user experience in the federal government while keeping platforms secure, current, and fully self-service capable.
 
       - layout: right
-        title: ARPA-H Microsoft 365 Tenant Migration
+        title: ARPA-H Microsoft 365
         quote: >
           Carving out a brand-new GCC tenant from scratch for a new federal agency.
         description: | # this will include new lines to allow paragraphs
-          Architected and led the migration of ARPA-H's <mark>Microsoft 365 GCC</mark> environment from NIH's shared tenant into a standalone, agency-owned tenant. Designed the full identity architecture using <mark>Okta</mark> as the authoritative identity provider with <mark>SCIM</mark> provisioning to <mark>Entra ID</mark>, establishing joiner/mover/leaver lifecycle automation from day one. Coordinated cross-tenant mailbox migrations via <mark>Exchange Online</mark>, SharePoint content migrations, and <mark>Microsoft Teams</mark> data transitions with minimal user disruption. Managed DNS cutovers — including MX, autodiscover, and domain verification records — and reconfigured <mark>Conditional Access</mark> policies, application registrations, and dynamic group logic in the new tenant. Ensured continuous <mark>NIST 800-53</mark> compliance and <mark>GCC</mark> data boundary requirements throughout.
+          Architected and led the migration of ARPA-H's Microsoft 365 GCC tenant from NIH's Microsoft 365 GCC tenant into a standalone, agency-owned tenant. Designed the full identity architecture using NIH ICAM systems as the authoritative identity provider with SCIM provisioning to Entra ID, establishing joiner/mover/leaver lifecycle automation from day one. Coordinated cross-tenant mailbox migrations via Exchange Online, SharePoint content migrations, and Microsoft Teams data transitions with minimal user disruption. Managed DNS cutovers — including MX, autodiscover, and domain verification records — and reconfigured <mark>Conditional Access</mark> policies, application registrations, and dynamic group logic in the new tenant. Ensured continuous NIST 800-53 compliance and GCC data boundary requirements throughout.
 
       - layout: left
         title: ARPA-H macOS
