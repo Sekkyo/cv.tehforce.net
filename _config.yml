@@ -241,7 +241,7 @@ content:
 
       I'm probably too proud that I can order what I want to eat in Spanish and Vietnamese.
 
-  - title: Cloud Provider Architecture & Administration Proficiency
+  - title: Cloud Provider Architecture & Engineering Proficiency
     layout: list
     content:
       - layout: left
@@ -255,9 +255,6 @@ content:
       - layout: left
         title: Google
         description: Google Admin, Google Cloud Platform, Google Workspace.
-      - layout: left
-        title: Other
-        description: Adobe Creative Cloud.
 
   - title: Framework & Language Proficiency
     layout: list
