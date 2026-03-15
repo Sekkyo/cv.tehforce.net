@@ -261,7 +261,7 @@ content:
     content:
       - layout: left
         title: Languages
-        description: C, C++, C#, Objective-C, Swift, JavaScript, jQuery, JSON, Perl, PHP, Python, SQL, Shell, PowerShell, XAML, XML, XSL, YAML.
+        description: C, C++, C#, Objective-C, Rust, Swift, JavaScript, jQuery, JSON, Perl, PHP, Python, SQL, Shell, PowerShell, XAML, XML, XSL, YAML — and honestly, pretty much everything else at this point, now that it's all agentic GitOps anyway.
       - layout: left
         title: Frameworks & Standards
         description: ASP.NET, CSS, HTML, Jekyll, USWDS, WiX.
