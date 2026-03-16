@@ -4,11 +4,28 @@
 
 @import 'modern-resume-theme';
 
+// Ch — custom condensed heading typeface
+@font-face {
+  font-family: 'Ch';
+  src: url('/assets/fonts/Ch-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 // Hand-drawn typeface — Architects Daughter (technical draftsman feel)
-body, h1, h2, h3, h4, h5, h6, p, a, li, mark, span, label,
+body, p, a, li, mark, span, label,
 blockquote, td, th, input, button, .button {
   font-family: 'Architects Daughter', cursive !important;
   line-height: 1.75;
+}
+
+// Ch for all headings — uppercase, tight, draftsman label feel
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Ch', sans-serif !important;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  line-height: 1.2;
 }
 
 // Slightly looser tracking reads better at handwriting weights
