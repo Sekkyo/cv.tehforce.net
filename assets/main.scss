@@ -34,11 +34,6 @@ p, li, blockquote {
   letter-spacing: 0.01em;
 }
 
-// Sketchy hand-drawn treatment for all Font Awesome icons
-.fas, .fab, .far, .fal, .fa,
-[class^="fa-"], [class*=" fa-"] {
-  filter: url(#sketchy);
-}
 
 // Subtle graph paper grid — light mode
 body {
