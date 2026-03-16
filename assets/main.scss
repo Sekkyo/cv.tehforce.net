@@ -20,12 +20,13 @@ blockquote, td, th, input, button, .button {
   line-height: 1.75;
 }
 
-// Ch for all headings — uppercase, tight, draftsman label feel
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Ch', sans-serif !important;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  line-height: 1.2;
+// Rock Salt for headings and major elements — chunky marker/draftsman feel
+h1, h2, h3, h4, h5, h6,
+.page-section > h2,
+header, nav {
+  font-family: 'Rock Salt', cursive !important;
+  letter-spacing: 0.04em;
+  line-height: 1.3;
 }
 
 // Slightly looser tracking reads better at handwriting weights
