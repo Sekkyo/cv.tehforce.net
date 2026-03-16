@@ -4,10 +4,22 @@
 
 @import 'modern-resume-theme';
 
+// Subtle graph paper grid — light mode
+body {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 0, 0, 0.04) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
 @mixin dark-mode {
   body {
     background-color: #212121;
     color: #d2d2d2;
+    background-image:
+      linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+    background-size: 24px 24px;
   }
 
   a {
