@@ -9,7 +9,8 @@
       '<defs>' +
         '<filter id="sketchy" x="-15%" y="-15%" width="130%" height="130%">' +
           '<feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="3" result="noise" seed="7"/>' +
-          '<feDisplacementMap in="SourceGraphic" in2="noise" scale="2.5" xChannelSelector="R" yChannelSelector="G"/>' +
+          '<feDisplacementMap in="SourceGraphic" in2="noise" scale="2.5" xChannelSelector="R" yChannelSelector="G" result="displaced"/>' +
+          '<feGaussianBlur in="displaced" stdDeviation="0.4"/>' +
         '</filter>' +
       '</defs>';
     document.body.insertBefore(svg, document.body.firstChild);
