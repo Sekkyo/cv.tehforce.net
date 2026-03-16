@@ -4,6 +4,24 @@
 
 @import 'modern-resume-theme';
 
+// Hand-drawn typeface — Architects Daughter (technical draftsman feel)
+body, h1, h2, h3, h4, h5, h6, p, a, li, mark, span, label,
+blockquote, td, th, input, button, .button {
+  font-family: 'Architects Daughter', cursive !important;
+  line-height: 1.75;
+}
+
+// Slightly looser tracking reads better at handwriting weights
+p, li, blockquote {
+  letter-spacing: 0.01em;
+}
+
+// Sketchy hand-drawn treatment for all Font Awesome icons
+.fas, .fab, .far, .fal, .fa,
+[class^="fa-"], [class*=" fa-"] {
+  filter: url(#sketchy);
+}
+
 // Subtle graph paper grid — light mode
 body {
   background-image:
