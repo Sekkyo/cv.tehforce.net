@@ -35,6 +35,14 @@ p, li, blockquote {
 }
 
 
+// Profile image — grayscale, no inner glow, circular preserved
+.profile-img {
+  filter: grayscale(1);
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
 // Subtle graph paper grid — light mode
 body {
   background-image:
