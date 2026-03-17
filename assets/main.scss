@@ -13,10 +13,10 @@
   font-display: swap;
 }
 
-// Hand-drawn typeface — Schoolbell
+// Vintage typewriter typeface — Courier Prime
 body, p, a, li, mark, span, label,
 blockquote, td, th, input, button, .button {
-  font-family: 'Schoolbell', cursive !important;
+  font-family: 'Courier Prime', monospace !important;
   font-size: 1.25rem;
   line-height: 1.75;
 }
@@ -34,7 +34,7 @@ header, nav {
 // body prefix raises specificity above the Schoolbell p rule
 body p.quote {
   font-family: 'Permanent Marker', cursive !important;
-  font-size: 2.2rem;
+  font-size: 4.4rem;
   font-style: normal;
   letter-spacing: 0.02em;
 }
