@@ -79,7 +79,7 @@ content:
 
       - layout: right
         title: NIH GitHub
-        link: https://github.com/enterprises/nih
+        link: github.com/enterprises/nih
         additional_links:
           - title: github.com/NIHGOV/github-portal
             icon: fab fa-github
@@ -94,7 +94,7 @@ content:
 
       - layout: left
         title: ARPA‑H Website
-        link: https://arpa-h.gov
+        link: arpa-h.gov
         quote: >
           First public face of a brand-new federal agency.
         description: | # this will include new lines to allow paragraphs
@@ -102,7 +102,7 @@ content:
 
       - layout: right
         title: STRIDES Initiative Website
-        link: https://cloud.nih.gov
+        link: cloud.nih.gov
         additional_links:
           - title: github.com/NIHGOV/cloud.nih.gov
             icon: fab fa-github
@@ -153,7 +153,7 @@ content:
            Built new knowledge management position and programs from the ground up. Established and maintained budgets in support of new and existing programs. Formed multi-disciplinary committees to govern and support programs. Directed and supervised contractor work in support of critical IT infrastructure. Developed training for end users. Led change management adoption within IT group. Provided years of experience with <mark>Microsoft 365</mark> as the technical lead for the institute. Identified the need for a scientific data support position, provided consultations with principal investigators, fast-tracked issue resolution, and rapidly prototyped new technologies into production. Initiated, planned, executed, and closed out — including the financing — of several new initiatives and projects: <mark>Amazon Web Services</mark>, <mark>Bizagi</mark>, <mark>Cylance</mark>, <mark>Google Workspace</mark>, <mark>Splunk</mark>. Augmented the Enterprise Team as a Cloud Architect, deeply involved in infrastructure redesigns, migrations, federation integrations, cost management and budgets in <mark>Amazon Web Services</mark>, <mark>Azure</mark>, <mark>Google Cloud Platform</mark>, and Google Workspace. Formed NIH-wide Cloud Smart community of interest to disseminate best practices and increase cloud adoption.
       - layout: left
         title: Department of Veterans Affairs, VISN 21
-        link: visn21.va.gov
+        link: department.va.gov/integrated-service-networks/visn-21
         sub_title: SharePoint Developer
         caption: February 2012 - August 2016
         quote: >
