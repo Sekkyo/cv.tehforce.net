@@ -4,7 +4,7 @@ gem "github-pages", group: :jekyll_plugins
 
 # Ruby 4.0 removed these from default gems; required by jekyll-3.9 / github-pages
 gem "csv"
-gem "bigdecimal"
+gem "bigdecimal", "~> 3.1"  # 4.x requires Ruby >= 3.4; pin for Ruby 3.3 local dev
 gem "base64"
 gem "ostruct"
 

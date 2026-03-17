@@ -17,7 +17,7 @@
 body, p, a, li, mark, span, label,
 blockquote, td, th, input, button, .button {
   font-family: 'Courier Prime', monospace !important;
-  font-size: 3rem;
+  font-size: 2rem;
   line-height: 1.75;
 }
 
@@ -45,12 +45,38 @@ p, li, blockquote {
 }
 
 
+// Yo. section — equidistant padding and looser intro text
+// h3 margin-bottom is 40px above the image row; image has 20px margin-bottom,
+// so adding 20px padding-bottom to the container brings the total below to 40px.
+.intro-container {
+  padding-bottom: 20px;
+
+  .col-xs-12.col-sm-8 {
+    padding-top: 4.5rem;
+    padding-left: 5rem;
+
+    p {
+      margin-bottom: 1.5rem;
+    }
+  }
+}
+
 // Profile image — grayscale, no inner glow, circular preserved
+// border uses currentColor so it auto-matches heading/text color in both modes
+// scale(1.405) grows 200px → 281px visually (361px span − 40px padding each side)
+// transform-origin: top center keeps top aligned with the row, overflowing only downward
+// z-index: 2 lets it overlay the Projects section header without affecting layout
 .profile-img {
   filter: grayscale(1);
   box-shadow: none;
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
+  border: 4px solid currentColor;
+  border-radius: 50%;
+  transform: scale(1.405);
+  transform-origin: top center;
+  position: relative;
+  z-index: 2;
 }
 
 // Subtle graph paper grid — light mode
