@@ -31,7 +31,8 @@ header, nav {
 }
 
 // Section quotes — Permanent Marker, one step below the project title
-p.quote {
+// body prefix raises specificity above the Schoolbell p rule
+body p.quote {
   font-family: 'Permanent Marker', cursive !important;
   font-size: 1.1rem;
   font-style: normal;
