@@ -34,7 +34,7 @@ header, nav {
 // body prefix raises specificity above the Schoolbell p rule
 body p.quote {
   font-family: 'Permanent Marker', cursive !important;
-  font-size: 3rem;
+  font-size: 1.875rem; // 75% of h4 title (2.5rem / 25px at 10px root)
   font-style: normal;
   letter-spacing: 0.02em;
 }
@@ -42,6 +42,13 @@ body p.quote {
 // Slightly looser tracking reads better at handwriting weights
 p, li, blockquote {
   letter-spacing: 0.01em;
+}
+
+// Pin section titles to the top of their row so they stay adjacent to their content
+// Theme default is vertical-align: middle which floats titles down on long sections
+.list-container .details,
+.text-container .details {
+  align-self: flex-start;
 }
 
 
