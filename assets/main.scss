@@ -86,6 +86,18 @@ p, li, blockquote {
   z-index: 2;
 }
 
+// On mobile the columns stack — disable scale and reset desktop offsets
+@media (max-width: 575px) {
+  .profile-img {
+    transform: none;
+  }
+
+  .intro-container .col-xs-12.col-sm-8 {
+    padding-top: 0;
+    padding-left: 15px; // restore Bootstrap gutter default
+  }
+}
+
 // Subtle graph paper grid — light mode
 body {
   background-image:
